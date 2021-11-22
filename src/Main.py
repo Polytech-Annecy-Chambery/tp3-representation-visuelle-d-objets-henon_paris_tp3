@@ -16,13 +16,12 @@ import copy
 
 
 def Q1a():
-    pass
-    
+    return Configuration()
 def Q1b_f():
-    return Configuration({'screenPosition': -5, 'xAxisColor': [1, 1, 0]}). \
-        setParameter('xAxisColor', [1, 1, 0]). \
-        setParameter('yAxisCo lor', [0,1,1]). \
-        display()
+        return Configuration({'screenPosition': -5, 'xAxisColor': [1, 1, 0]}). \
+          setParameter('xAxisColor', [1,1,0]). \
+          setParameter('yAxisColor', [0,1,1]). \
+          display()
         
 def Q2b():
     # Ecriture en utilisant le chaînage
